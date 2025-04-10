@@ -1,0 +1,16 @@
+.page-container{
+    background: #fff url('/src/assets/images/Element.png') no-repeat center/cover;
+    min-height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  @media (max-width: 480px) {
+    .page-container {
+      /* Si fuera necesario ajustar el layout, por ejemplo, cambiar la dirección */
+      flex-direction: column;
+    }
+  }

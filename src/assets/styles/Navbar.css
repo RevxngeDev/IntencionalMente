@@ -1,0 +1,88 @@
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1rem;
+  height: 130px;
+  background: linear-gradient(to bottom, #94BEF1, #e1f0ff);
+  font-family: 'Montserrat', sans-serif;
+  color: #000; 
+  border-bottom: 0.1px solid #ddd;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.navbar-left,
+.navbar-center,
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-logo {
+  width: 300px; 
+  height: auto;
+}
+
+.navbar-center {
+  gap: 1rem; 
+  
+}
+
+.nav-link {
+  color: #000;
+  text-decoration: none;
+   border-radius: 4px;
+  font-weight: 600;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #ffca2c;     
+  transform: scale(1.05); 
+}
+
+.navbar-right {
+  gap: 1rem;
+}
+
+.try-btn {
+  background-color: #ffe492;
+  color: #000;
+  text-decoration: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 4px;
+  font-weight: 600;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.try-btn:hover {
+  background-color: #ffca2c;
+  transform: scale(1.05);
+}
+
+
+@media (max-width: 480px) {
+  .navbar {
+    flex-direction: column;
+    height: auto; /* Permite que la altura se ajuste según el contenido */
+    padding: 0.5rem 1rem;
+  }
+  
+  /* Asegura que cada sección ocupe el 100% y se centre */
+  .navbar-left,
+  .navbar-center,
+  .navbar-right {
+    width: 100%;
+    justify-content: center;
+    margin: 0.5rem 0;
+  }
+  
+  .navbar-logo {
+    width: 150px; /* Reduce el tamaño del logo para móviles */
+  }
+  
+  .nav-link, .try-btn {
+    font-size: 0.9rem; /* Ajusta el tamaño de la fuente si es necesario */
+  }
+}
