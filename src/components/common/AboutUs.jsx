@@ -7,7 +7,7 @@ import img3 from '../../assets/images/nada.jpg';
 
 const AboutUs = () => {
   return (
-    <section className="about-section">
+    <section id="about" className="about-section">
       <div className="about-container">
         <div className="about-text">
           <p className="about-pretitle">Un poco</p>

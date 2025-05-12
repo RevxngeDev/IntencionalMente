@@ -1,4 +1,3 @@
-
 import React from 'react';
 import '../../assets/styles/Navbar.css'
 import logo from '../../assets/images/logo.png'
@@ -13,6 +12,7 @@ const Navbar = () => {
   
         <nav className="navbar-center">
           <a href="#home" className="nav-link">Home</a>
+          <a href="#about" className="nav-link">Sobre Nosotros</a>
         </nav>
   
         <div className="navbar-right">

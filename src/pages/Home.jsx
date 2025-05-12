@@ -12,7 +12,6 @@ const Home = () => {
       <main className="main-content">
       <Hero/>
       <AboutUs/>
-      <Hero/>
       </main>
       <Footer/>
     </div>
