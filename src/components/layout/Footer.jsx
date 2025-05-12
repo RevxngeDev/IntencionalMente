@@ -53,7 +53,7 @@ const Footer = () => {
           <img src={iconInstagram} alt="Instagram" className="social-icon" />
         </a>
         <a
-          href="https://www.instagram.com/intencional_mente_cde/"
+          href="https://www.tiktok.com/@intencional_mente_cde"
           target="_blank"
           rel="noopener noreferrer"
           className="social-link"
